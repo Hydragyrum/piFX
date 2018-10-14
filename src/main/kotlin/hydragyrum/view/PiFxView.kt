@@ -8,7 +8,7 @@ import javafx.scene.paint.Color
 import tornadofx.*
 
 class PiFxView : View("PiFX View") {
-    private val piFxController = PiFxController(100.0)
+    private val piFxController = PiFxController(600.0)
 
     override val root = vbox {
         canvas(piFxController.squareSize, piFxController.squareSize){
