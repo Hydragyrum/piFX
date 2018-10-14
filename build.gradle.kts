@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.3.0-rc-152"
+    kotlin("jvm") version "1.3.0-rc-146"
 }
 
 group = "hydragyrum"
