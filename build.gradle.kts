@@ -9,7 +9,7 @@ group = "hydragyrum"
 version = "1.0-SNAPSHOT"
 
 application {
-    mainClassName = "hydragyrum.MainKt"
+    mainClassName = "hydragyrum.MainFxKt"
 }
 
 repositories {
@@ -20,8 +20,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:0.30.2-eap13")
-    implementation(kotlin("script-runtime"))
+    implementation("no.tornado:tornadofx:1.7.16")
 }
 
 tasks.withType<KotlinCompile> {
